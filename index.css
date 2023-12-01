@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    font-size: 45px;
+    color:beige;
+    background-color: rgb(238, 127, 127);
+    font-style: italic;
+    padding:5px;
+}
+.p1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+.logo img{
+    margin-left: 90%;
+    max-height: 160px;
+}
+nav{
+    text-align: center;
+    display:flex;
+    font-size: 23px;
+    color: aliceblue;
+    background-color: burlywood;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+ display: flex;
+ list-style: none;
+ padding:10px;
+}
+.menu li{
+    margin-left:20px;
+}
+.h2{
+    text-align: center;
+    color:brown;
+    font-size: 45px;
+    font-style: italic;
+    margin-top:10px;
+    padding-top: 20px;
+    background-color: beige;
+}
+.p2{
+    text-align: justify;
+    color:brown;
+    background-color: bisque;
+    font-size: 23px;
+    padding-left:20px;
+}
+table{
+    border-collapse: collapse;
+   width:100%;
+}
+th,td{
+    text-align: left;
+    padding:8px;
+
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: blanchedalmond;
+}
